@@ -61,6 +61,9 @@ Now we have something like this:
 ```  
 while True:
     time.sleep(1)
-    if listen() == "OFFLINE":
+    command = listen()
+    if command == "OFFLINE":
         break  
+    if "ECHO" in command:
+        print(command.replace("ECHO","))
 ```  
