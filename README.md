@@ -29,8 +29,8 @@ I wanted to start by building a simple website to test my scraper.
   @app.route('/')  
   def home():  
     return "Welcome to rest a pint!"  
-  ``` 
-  Afterwhich I could test my scraper. This has one problem though,
+  ```
+Afterwhich I could test my scraper. This has one problem though,
 if I do a simple
 ``` page = requests.get(url); print(page.text) ```  
 It gives me a plain string, ``` "Welcome to rest a pint!" ```. If we did the same to, say pinterest.com the output would be the whole HTML of the mainpage.
@@ -41,6 +41,7 @@ What you do is set up a loop, wait a set amount of time, pull your desired url a
 ```  
 import time  
 import requests as req  
+  
 while True:  
     time.sleep(1)  
     page = req.get(YourUrlHere)  
