@@ -20,7 +20,8 @@ The whole setup consists of 3 separate, distinct apps.
 #### 3rd app: works as an automated script to insert user input into our webapp.
   To actually control our C2 remotely, we might want to create a script that could change the "user input" on the site.
   In the example of pinterest this would mean a script that takes your input in terminal, and then inserts this input 
-  into your pinterest profile, as either name or a sentence in your bio.
+  into your pinterest profile, as either name or a sentence in your bio. However in this project, we will not do that,
+  since we're not actually using a real social media site with well built frameworks.
  #
  ### 3) The execution.
 #### Setting up the website
@@ -67,3 +68,4 @@ while True:
     if "ECHO" in command:
         print(command.replace("ECHO","))
 ```  
+#### Testing this all out
