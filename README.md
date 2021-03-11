@@ -23,3 +23,8 @@ The whole setup consists of 3 separate, distinct apps.
   into your pinterest profile, as either name or a sentence in your bio.
  #
  ### 3) The execution.
+I wanted to start by building a simple website to test my scraper.
+  ´´´
+  @app.route('/')
+  def home():
+    return "Welcome to rest a pint!" ´´´ did the trick.
