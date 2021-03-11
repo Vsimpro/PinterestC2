@@ -66,6 +66,6 @@ while True:
     if command == "OFFLINE":
         break  
     if "ECHO" in command:
-        print(command.replace("ECHO","))
+        print(command.replace("ECHO",""))
 ```  
 #### Testing this all out
