@@ -26,4 +26,6 @@ The whole setup consists of 3 separate, distinct apps.
 I wanted to start by building a simple website to test my scraper.  
   ```@app.route('/')  
   def home():  
-    return "Welcome to rest a pint!" ``` did the trick.
+    return "Welcome to rest a pint!"  
+  ``` 
+  did the trick.
