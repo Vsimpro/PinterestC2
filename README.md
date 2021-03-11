@@ -3,7 +3,7 @@ Proof of Concept project:
 Using webpages as a Command Center to remote execute python.
 
 ### 1) The context.
-User on a discord server I am a part of sent a message that caught my interest:
+On a discord server I am a part of, a message was sent that caught my eye:
 ``` "making a botnet using pinterest" ```
 At first, I was baffled. What? Why? What? But the more I thought about it, the more I had to give it a shot. 
 Here's a brief PoC writeup on how it works. All of the code used in this project can be found in the "FOLDER" folder.
