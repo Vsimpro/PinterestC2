@@ -1,4 +1,3 @@
-# 
 ## PinterestC2
 Proof of Concept project:
 Using webpages as a Command Center to remote execute python.
@@ -8,7 +7,7 @@ On a discord server I am a part of, a message was sent that caught my eye:
 ``` "making a botnet using pinterest" ```
 At first, I was baffled. What? Why? What? But the more I thought about it, the more I had to give it a shot. 
 Here's a brief PoC writeup on how it works. All of the code used in this project can be found in the "FOLDER" folder.
-
+#
 ### 2) The plan.
 Although the original idea was to use a pinterest bio to relay the code, for demonstration purposes we're going to build our own web-app.
 Since I am already familiar with Flask, that is what we're going to be using for the frontend. 
@@ -22,5 +21,5 @@ The whole setup consists of 3 separate, distinct apps.
   To actually control our C2 remotely, we might want to create a script that could change the "user input" on the site.
   In the example of pinterest this would mean a script that takes your input in terminal, and then inserts this input 
   into your pinterest profile, as either name or a sentence in your bio.
- 
+ #
  ### 3) The execution.
