@@ -50,5 +50,5 @@ while True:
 We can now handle the contents of the html page. To begin, we might want to try to find a keyword from the page. Let's use something distinct, like !pC2.
 ```  
 if "!pC2" in contents:  
-  contents.split("!pC2")  
+  contents = contents.split("!pC2")  
 ```
