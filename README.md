@@ -29,4 +29,8 @@ I wanted to start by building a simple website to test my scraper.
   def home():  
     return "Welcome to rest a pint!"  
   ``` 
-  did the trick.
+  Afterwhich I could test my scraper. This has one problem though,
+if I do a simple
+``` page = requests.get(url); print(page.text) ```  
+It gives me a plain string, ``` "Welcome to rest a pint!" ```. If we did the same to, say pinterest.com the output would be the whole HTML of the mainpage.
+To test out the parsing and coming closer to a real use case, we shall make it return a simple .html template, called "mainpage"
