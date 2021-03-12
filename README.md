@@ -69,5 +69,6 @@ while True:
 ```  
 #### Testing this all out.
 To make sure that it really does work, I set up my webapp on a VPS. Connecting to https://my.vps.ip:5000/ on my browser shows our mainpage.html, meaning that the page truly is up. Now when I insert that url into my reader.py, ```url = my.vps.ip:5000 ``` and run the .py, the terminal stays clear and our VPS terminal shows that someone is visiting our site roughly every second. Now let's go back to our template.html, and add one line below line 12:  
-``` 12 <h1 style="color:white;">Welcome to rest a pint!</h1>     
+```  
+12 <h1 style="color:white;">Welcome to rest a pint!</h1>     
 13 <p style="color:white;">!pC2OFFLINE!pC2</p>```  
