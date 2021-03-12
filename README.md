@@ -72,3 +72,10 @@ To make sure that it really does work, I set up my webapp on a VPS. Connecting t
 ```  
 12 <h1 style="color:white;">Welcome to rest a pint!</h1>     
 13 <p style="color:white;">!pC2OFFLINE!pC2</p>  
+```  
+This now adds one line to our website, which we can imagine to represent, say, our profile name on pinterest. If we run the reader.py again, surely enough the program just cleanly exits after one second of running, implying it works as it should.
+#
+### 4) Final thoughts.
+All in all, the basic idea should work just as thought: remotely executing code based on strings on a webpage. How useful it is, on the otherhand, relies on many things. 
+To an siteowner, even a few bots on a botnet pinging once every second or so your site looks awfully lot like a DDoS. Maybe if you ran the page on a proxy, and all the bots would req that instead of a real site, you could get away with it. Though then it would'nt be a Pinterest Botnet now would it?  
+For a C2 this solution simply would not be an efficient solution, but maybe you could come up with a different usecase for this method of relaying code.
