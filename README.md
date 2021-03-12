@@ -44,7 +44,6 @@ import time
 import requests as req  
   
 while True:  
-      
     page = req.get(YourUrlHere)  
     content = page.text  
 ```
